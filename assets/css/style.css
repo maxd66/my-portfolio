@@ -1,0 +1,52 @@
+* {
+    font-size: 20px;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+    flex-direction: column;
+}
+h1{
+    font-size: 250%;
+    padding: 10px;
+    background-color: red;
+}
+
+ul {
+    position: sticky;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: grey;
+}
+
+li {
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    padding: 15px;
+}
+
+header a {
+    font-size: 125%;
+    /* Change color of links here */
+}
+
+/* Jumbotron CSS */
+
+.hero {
+    background-image: url(../images/iceberg\ waterfall.jpg);
+    height: 250px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero h2 {
+    position: relative;
+    top: 15%;
+    left: 5%;
+    font-size: 200%;
+    margin-right: 100px;
+}
