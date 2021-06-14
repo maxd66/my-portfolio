@@ -51,3 +51,21 @@ header a {
     text-align: center;
     margin-bottom: 20px;
 }
+
+main {
+    display: flex;
+    flex-direction: column;
+    
+}
+main h2 {
+    font-size: 150%;
+    border-bottom: solid;
+    margin: 20px;
+}
+
+main p {
+    margin: 0px 20px;
+    text-indent: 10%;
+    line-height: 1.5;
+}
+
