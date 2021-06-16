@@ -154,7 +154,6 @@ figcaption {
     left: 17%;
     margin-bottom: 10%;
     font-size: 150%;
-    /* background-color: var(--dark); */
     color: var(--light);
     text-shadow: -1px 3px var(--dark);
     padding: 8px;
@@ -177,13 +176,13 @@ footer li {
     color: var(--dark);
 }
 
-    /* Media queries for Medium size/tablet */
+    /*--------- Media queries for Medium size/tablet -------------------------------------------------- */
 
 @media screen and (min-width: 576px) {
     .hero h2 {
         text-align: right;
         padding-right: 10px;
-        margin-left: 150px;
+        margin-left: 50px;
     }
 
     .hero img {
