@@ -82,6 +82,7 @@ main img {
     position: inherit;
     height: 450px;
     object-position: center;
+    opacity: 1;
 }
 
 main h2 {
@@ -137,11 +138,37 @@ img {
     height: 300px;
     object-position: center;
     object-fit: cover;
+    opacity: .5;
 }
 
 .img1, .img2, .img3, .img4, .img5 {
     flex: 0 0 90%;
     margin: 8px;
+}
+
+.img1:hover img {
+    opacity: 1;
+    transition: .5s ease-in-out;
+}
+
+.img2:hover img {
+    opacity: 1;
+    transition: .5s ease-in-out;
+}
+
+.img3:hover img {
+    opacity: 1;
+    transition: .5s ease-in-out;
+}
+
+.img4:hover img {
+    opacity: 1;
+    transition: .5s ease-in-out;
+}
+
+.img5:hover img {
+    opacity: 1;
+    transition: .5s ease-in-out;
 }
 
 figcaption {
@@ -188,6 +215,7 @@ footer li {
     .hero img {
         display: block;
         height: 250px;
+        opacity: 1;
     }
 
     main img {
