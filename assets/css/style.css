@@ -2,6 +2,16 @@
     font-size: 20px;
 }
 
+:root {
+    --light: #BDDBED;
+    --dark: #09446D;
+    --highlight: lightgreen;
+}
+
+body {
+    background-color: var(--light);
+}
+
 header {
     width: 100%;
     text-align: center;
@@ -10,7 +20,8 @@ header {
 h1{
     font-size: 250%;
     padding: 10px;
-    background-color: red;
+    background-color: var(--dark);
+    color: var(--light);
 }
 
 nav ul {
@@ -19,7 +30,7 @@ nav ul {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    background-color: grey;
+    background-color: var(--light);
 }
 
 li {
@@ -31,6 +42,7 @@ li {
 header a {
     font-size: 125%;
     /* Change color of links here */
+    color: var(--dark);
 }
 
     /* Jumbotron CSS */
@@ -50,6 +62,12 @@ header a {
     font-size: 250%;
     text-align: center;
     margin-bottom: 20px;
+    color: var(--highlight);
+    text-shadow: 2px 2px var(--dark);
+}
+
+.hero img {
+    display: none;
 }
 
     /* About me */
@@ -59,16 +77,25 @@ main {
     flex-direction: column;
     
 }
+
+main img {
+    position: inherit;
+    height: 450px;
+    object-position: center;
+}
+
 main h2 {
-    font-size: 150%;
-    border-bottom: solid;
+    font-size: 200%;
+    border-bottom: solid var(--dark);
     margin: 20px;
+    color: var(--dark);
 }
 
 main p {
     margin: 0px 20px;
     text-indent: 10%;
     line-height: 1.5;
+    color: var(--dark);
 }
 
     /* work layout adjustments */
@@ -79,9 +106,10 @@ main p {
 }
 
 .figure h2 {
-    font-size: 150%;
-    border-bottom: solid;
+    font-size: 200%;
+    border-bottom: solid var(--dark);
     margin: 20px;
+    color: var(--dark);
 }
 
 .container {
@@ -91,7 +119,7 @@ main p {
 }
 
 .container section img {
-    border: solid black;
+    border: solid var(--dark);
 }
 
 .container a {
@@ -126,16 +154,19 @@ figcaption {
     left: 17%;
     margin-bottom: 10%;
     font-size: 150%;
-    background-color: blue;
+    /* background-color: var(--dark); */
+    color: var(--light);
+    text-shadow: -1px 3px var(--dark);
     padding: 8px;
 }
 
     /* footer */
 
 footer h2 {
-    font-size: 150%;
-    border-bottom: solid;
+    font-size: 200%;
+    border-bottom: solid var(--dark);
     margin: 20px;
+    color: var(--dark);
 }
 footer {
     padding-bottom: 20px;
@@ -143,6 +174,7 @@ footer {
 
 footer li {
     margin-left: 8px;
+    color: var(--dark);
 }
 
     /* Media queries for Medium size/tablet */
@@ -151,7 +183,16 @@ footer li {
     .hero h2 {
         text-align: right;
         padding-right: 10px;
-        margin-left: 300px;
+        margin-left: 150px;
+    }
+
+    .hero img {
+        display: block;
+        height: 250px;
+    }
+
+    main img {
+        display: none;
     }
 
     #main-img {
@@ -181,7 +222,7 @@ footer li {
 @media screen and (min-width: 992px) {
     header {
         height: 130px;
-        background-color: grey;
+        background-color: var(--light);
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -197,5 +238,63 @@ footer li {
         margin-right: 20px;
     }
 
+    .hero {
+        padding-right: 20px;
+    }
+
     /* About me section */
+
+    main {
+        flex-direction: row;
+        margin: 20px 0px;
+    }
+    
+    main h2 {
+        border-right: solid var(--dark);
+        padding-right: 10px;
+        padding-left: 29px;
+        border-bottom: hidden;
+        text-align: right;
+    }
+    
+    /* work section */
+    
+    .figure {
+        flex-direction: row;
+        margin: 30px 0px;
+    }
+    
+    .figure h2 {
+        border-right: solid var(--dark);
+        padding-left: 46px;
+        padding-right: 9.5px;
+        border-bottom: hidden;    
+        text-align: right;
+    }
+
+    /* footer */
+
+    footer {
+        display: flex;
+    }
+
+    footer h2 {
+        border-right: solid var(--dark);
+        padding-right: 10px;
+        border-bottom: hidden;
+        text-align: right;
+        margin-left: -1.35%;
+        left: 10px;
+    }
+
+    footer ul {
+        flex-basis: 100%;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    main div {
+        display: flex;
+        flex-direction: row;
+    }
 }
