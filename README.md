@@ -17,3 +17,5 @@ I worked on the html and css on my own.
 ## License
 
 The website was insired by a mockup provided by UCSD Coding Bootcamp Extension.
+
+![screenshot of my portfolio webpage](./assets/images/screenshotOfPage.png)
