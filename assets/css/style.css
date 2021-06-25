@@ -66,6 +66,10 @@ header a {
     text-shadow: 2px 2px var(--dark);
 }
 
+#header-quote {
+    opacity: 0;
+}
+
 .hero img {
     display: none;
 }
