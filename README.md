@@ -14,7 +14,11 @@ There is no installation required.
 
 I worked on the html and css on my own.
 
+The bitcoin image cam from: https://www.flickr.com/photos/jason_benjamin/8632995866
+
 The question marks picture came from: https://www.system-concepts.com/insights/global-accessibility-awareness-day-2019/question-marks-multicoloured-banner/
+
+Weather picture came from: https://www.ncyc.net.au/sailing-academy/weather-course/module-1/watch-the-weather-image1-hero/
 
 ## License
 
