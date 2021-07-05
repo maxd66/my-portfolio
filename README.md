@@ -14,6 +14,8 @@ There is no installation required.
 
 I worked on the html and css on my own.
 
+The question marks picture came from: https://www.system-concepts.com/insights/global-accessibility-awareness-day-2019/question-marks-multicoloured-banner/
+
 ## License
 
 The website was insired by a mockup provided by UCSD Coding Bootcamp Extension.
