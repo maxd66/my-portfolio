@@ -185,8 +185,8 @@ figcaption {
     left: 17%;
     margin-bottom: 10%;
     font-size: 150%;
-    color: var(--light);
-    text-shadow: -1px 3px var(--dark);
+    color: var(--dark);
+    text-shadow: -1px 1px var(--light);
     padding: 8px;
 }
 
