@@ -20,6 +20,8 @@ The question marks picture came from: https://www.system-concepts.com/insights/g
 
 Weather picture came from: https://www.ncyc.net.au/sailing-academy/weather-course/module-1/watch-the-weather-image1-hero/
 
+The calendar picture came from: https://opensource.com/alternatives/google-calendar
+
 ## License
 
 The website was insired by a mockup provided by UCSD Coding Bootcamp Extension.
