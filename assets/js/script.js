@@ -13,7 +13,7 @@ function fadeIn() {
 
 document.getElementById('resume-link').addEventListener('click', function() {
     if(confirm('You will now be taken to a seperate page for the pdf of my resume. If you would like to return to the portfolio, please select cancel.')) {
-        window.location = './assets/images/coding_resume.pdf'
+        window.location = './assets/images/coding-resume.pdf'
     }
 })
 
